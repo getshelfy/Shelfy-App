@@ -18,15 +18,15 @@
         "ITSAppUsesNonExemptEncryption": false
       }
     },
-    "android": {
+   "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/natively-dark.png",
-        "backgroundColor": "#000000"
+        "foregroundImage": "./assets/images/shelfy-icon.png",
+        "backgroundColor": "#FAF8F3"
       },
-      "package": "com.placeholder.app"
+      "package": "com.joinshelfy.app"
     },
     "web": {
-      "favicon": "./assets/images/final_quest_240x240.png",
+      "favicon": "./assets/images/shelfy-icon.png",
       "bundler": "metro"
     },
     "plugins": [
@@ -35,7 +35,7 @@
       "expo-web-browser",
       "expo-secure-store"
     ],
-    "scheme": "zenspace",
+    "scheme": "shelfy",
     "experiments": {
       "typedRoutes": true
     },
