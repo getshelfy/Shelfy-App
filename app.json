@@ -1,19 +1,19 @@
 {
   "expo": {
-    "name": "Zen Space",
-    "slug": "zen-space",
+    "name": "Shelfy",
+    "slug": "shelfy",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/natively-dark.png",
-    "userInterfaceStyle": "automatic",
+    "icon": "./assets/images/shelfy-icon.png",
+    "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/images/natively-dark.png",
+      "image": "./assets/images/shelfy-splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#000000"
+      "backgroundColor": "#FAF8F3"
     },
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.placeholder.app",
+      "supportsTablet": false,
+      "bundleIdentifier": "com.joinshelfy.app",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
